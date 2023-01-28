@@ -15,7 +15,7 @@ class Calculator extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Calculator',
-      theme: ThemeData(primarySwatch: Colors.cyan),
+      theme: ThemeData(primarySwatch: Colors.blueGrey),
       home: SimpleCalculator(),
     );
   }
@@ -103,7 +103,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
             style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.normal,
-                color: Colors.white
+                color: Colors.black
             ),
           ),
         )
@@ -149,41 +149,41 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                  children: [
                    TableRow(
                      children: [
-                       buildButton("C", 1, Colors.redAccent),
-                       buildButton("⌫", 1, Colors.blue),
-                       buildButton("/", 1, Colors.blue),
+                       buildButton("C", 1, Colors.black12),
+                       buildButton("⌫", 1, Colors.red.shade100),
+                       buildButton("/", 1, Colors.blue.shade100),
                      ]
                    ),
 
                    TableRow(
                        children: [
-                         buildButton("7", 1, Colors.black54),
-                         buildButton("8", 1, Colors.black54),
-                         buildButton("9", 1, Colors.black54),
+                         buildButton("7", 1, Colors.blueGrey.shade200),
+                         buildButton("8", 1, Colors.blueGrey.shade200),
+                         buildButton("9", 1, Colors.blueGrey.shade200),
                        ]
                    ),
 
                    TableRow(
                        children: [
-                         buildButton("4", 1, Colors.black54),
-                         buildButton("5", 1, Colors.black54),
-                         buildButton("6", 1, Colors.black54),
+                         buildButton("4", 1, Colors.blueGrey.shade200),
+                         buildButton("5", 1, Colors.blueGrey.shade200),
+                         buildButton("6", 1, Colors.blueGrey.shade200),
                        ]
                    ),
 
                    TableRow(
                        children: [
-                         buildButton("1", 1, Colors.black54),
-                         buildButton("2", 1, Colors.black54),
-                         buildButton("3", 1, Colors.black54),
+                         buildButton("1", 1, Colors.blueGrey.shade200),
+                         buildButton("2", 1, Colors.blueGrey.shade200),
+                         buildButton("3", 1, Colors.blueGrey.shade200),
                        ]
                    ),
 
                    TableRow(
                        children: [
-                         buildButton(".", 1, Colors.black54),
-                         buildButton("0", 1, Colors.black54),
-                         buildButton("00", 1, Colors.black54),
+                         buildButton(".", 1, Colors.blueGrey.shade400),
+                         buildButton("0", 1, Colors.blueGrey.shade400),
+                         buildButton("00", 1, Colors.blueGrey.shade400),
                        ]
                    )
                  ],
@@ -195,25 +195,25 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                   children: [
                     TableRow(
                       children: [
-                        buildButton("X", 1, Colors.blue),
+                        buildButton("X", 1, Colors.blue.shade100),
                       ]
                     ),
 
                     TableRow(
                         children: [
-                          buildButton("+", 1, Colors.blue),
+                          buildButton("+", 1, Colors.blue.shade100),
                         ]
                     ),
 
                     TableRow(
                         children: [
-                          buildButton("-", 1, Colors.blue),
+                          buildButton("-", 1, Colors.blue.shade100),
                         ]
                     ),
 
                     TableRow(
                         children: [
-                          buildButton("=", 2, Colors.redAccent),
+                          buildButton("=", 2, Colors.red.shade100),
                         ]
                     )
                   ],

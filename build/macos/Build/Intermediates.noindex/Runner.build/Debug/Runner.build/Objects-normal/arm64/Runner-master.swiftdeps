@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "2a3360fd31441285a3d2933d130605bad85391d67c5e6f86c810b4a09d47db9c"
+build_start_time: [1674902849, 14048099]
+build_end_time: [1674902853, 916357994]
+inputs:
+  "/Users/thatcrazydeveloper/StudioProjects/Calculator/macos/Flutter/GeneratedPluginRegistrant.swift": [1674902838, 657069683]
+  "/Users/thatcrazydeveloper/StudioProjects/Calculator/macos/Runner/AppDelegate.swift": [1671141040, 0]
+  "/Users/thatcrazydeveloper/StudioProjects/Calculator/macos/Runner/MainFlutterWindow.swift": [1671141040, 0]
